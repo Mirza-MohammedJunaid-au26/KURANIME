@@ -2,191 +2,531 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
 
-    <title>JUNAID</title>
+  <title>JUNAID</title>
 </head>
 
 <body>
 
-    <!-- Navbar Start's -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./img/kuranime.png" class="logo" alt="logo"><span
-                    class="kur fs-3 fw-bold">KUR<span class="anime fs-3 fw-bold">ANIME</span> </span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Recommendation's
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">One Peice</a></li>
-                            <li><a class="dropdown-item" href="#">Naruto Shippuden</a></li>
-                            <li><a class="dropdown-item" href="#">My Hero Academia</a></li>
-                            <li><a class="dropdown-item" href="#">Jujutsu Kaisen</a></li>
-                            <li><a class="dropdown-item" href="#">Hunter x Hunter</a></li>
-                            <li><a class="dropdown-item" href="#">Dragon Ball Super</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Anime's</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <!-- Navbar Start's -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/kuranime.png" class="logo" alt="logo"><span
+          class="kur fs-3 fw-bold">KUR<span class="anime fs-3 fw-bold">ANIME</span> </span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Recommendation's
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">One Peice</a></li>
+              <li><a class="dropdown-item" href="#">Naruto Shippuden</a></li>
+              <li><a class="dropdown-item" href="#">My Hero Academia</a></li>
+              <li><a class="dropdown-item" href="#">Jujutsu Kaisen</a></li>
+              <li><a class="dropdown-item" href="#">Hunter x Hunter</a></li>
+              <li><a class="dropdown-item" href="#">Dragon Ball Super</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Anime's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Navbar End's -->
+  <!-- Navbar End's -->
 
-    <!-- Home Section Start's -->
+  <!-- Home Section Start's -->
 
-    <section id="home" class="container">
+  <section id="home" class="container">
 
-        <div class="row mt-5">
-            <div class="One_Peice col-xx-6  col-lg-6 col-md-6 col-12">
-                <figure>
-                    <img src="./img/1.jpg" alt="One_Peice" class="img-fluid anime_img mx-auto d-block">
-                </figure>
-                <h3 class="text-center anime_font">One Peice</h3>
-                <div class="container">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                              Episodes
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h6 class="fw-bold">Manga Canon Episode</h6>
-                                <hr/>
-                                <p class="fw-bold">
-                                    1-45, 48-49, 52-53, 62-67, 70-92, 94-97, 100, 103-130, 144-195, 207-212, 217-219, 227-278, 284-290, 293-302, 304-316, 320-325, 337-353, 355-381, 385-405, 408-417, 422-425, 430-452, 459-488, 490-491, 493-496, 500-505, 507-519, 521-541, 543-573, 579-589, 591-624, 629-632, 634-652, 654-656, 658-678, 680-689, 691-730, 732-736, 739-746, 752-774, 776, 779, 783-788, 790-802, 804-806, 808-877, 880, 886, 891-894, 897-906, 908-914, 916-923, 925-933, 935-984, 986-988, 990, 993-1002........ Ongoing
-                                </p>
-                                <h6 class="fw-bold">Mixed Canon/Filler Episodes:</h6>
-                                <hr/>
-                                <p class="fw-bold">
-                                    46-47, 61, 68-69, 101, 354, 421, 489, 520, 574, 625, 633, 653, 657, 679, 690, 731, 738, 751, 777-778, 789, 803, 807, 878-879, 881-885, 887-890, 915, 924, 934, 985, 989, 991-992
-                                </p>
-                                <h6 class="fw-bold">Filler Episodes:</h6>
-                                <hr/>
-                                <p class="fw-bold">
-                                    54-60, 98-99, 102, 131-143, 196-206, 220-226, 279-283, 291-292, 303, 317-319, 326-336, 382-384, 406-407, 426-429, 457-458, 492, 542, 575-578, 590, 626-628, 747-750, 780-782, 895-896, 907
-                                </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Movies
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body fw-bold">
-                              <p>
-                                  1. One Piece: The Movie <hr/> 
-                                  2. Clockwork Island Adventure <hr/>
-                                  3. Chopper's Kingdom on the Island of Strange Animals <hr/>
-                                  4. Dead End Adventure <hr/>
-                                  5. The Cursed Holy Sword <hr/>
-                                  6. Baron Omatsuri and the Secret Island <hr/>
-                                  7. Giant Mecha Soldier of Karakuri Castle <hr/>
-                                  8. The Desert Princess and the Pirates: Adventures in Alabasta <hr/>
-                                  9. Episode of Chopper Plus: Bloom in the Winter, Miracle Sakura <hr/>
-                                  10. One Piece Film: Strong World <hr/>
-                                  11. Straw Hat Chase <hr/>
-                                  12. One Piece Film: Z <hr/>
-                                  13. One Piece Film: Gold <hr/> 
-                                  14. One Piece: Stampede <hr/>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Where to Watch
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body fw-bold">
-                              <p>
-                                  <h6 class="fw-bold">Manga</h6>
-                                  <hr/>
-                                  <a href="https://onepiece-manga-online.net/">Click Here</a>
-                                  <hr/>
-                                  <h6 class="fw-bold">Website</h6>
-                                  <hr/>
-                                  <h6 class="fw-bold">DUB</h6>
-                                  <a href="https://animixplay.to/v1/one-piece-dub">Animix</a>
-                                  <hr/>
-                                  <h6 class="fw-bold">SUB</h6>
-                                  <a href="https://animixplay.to/v1/one-piece">Animix</a><br/>
-                                  <a href="https://gogoanime.cm/category/one-piece">GoGo Anime</a>
-                                  <hr/>
-                                  <h6 class="fw-bold">App</h6>
-                                  <hr/>
-                                  <a href="https://play.google.com/store/apps/details?id=com.cksentertainment.animelove3">Anime Love</a>
-                                </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+    <div class="row">
+      <div class="One_Peice col-xx-6  col-lg-6 col-md-6 col-12 mt-5">
+        <figure>
+          <img src="./img/1.jpg" alt="One_Peice" class="img-fluid anime_img mx-auto d-block">
+        </figure>
+        <h3 class="text-center anime_font">One Peice</h3>
+        <div class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Episodes
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h6 class="fw-bold">Manga Canon Episode :</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    1-45, 48-49, 52-53, 62-67, 70-92, 94-97, 100, 103-130, 144-195, 207-212, 217-219, 227-278, 284-290,
+                    293-302, 304-316, 320-325, 337-353, 355-381, 385-405, 408-417, 422-425, 430-452, 459-488, 490-491,
+                    493-496, 500-505, 507-519, 521-541, 543-573, 579-589, 591-624, 629-632, 634-652, 654-656, 658-678,
+                    680-689, 691-730, 732-736, 739-746, 752-774, 776, 779, 783-788, 790-802, 804-806, 808-877, 880, 886,
+                    891-894, 897-906, 908-914, 916-923, 925-933, 935-984, 986-988, 990, 993-1002........ Ongoing
+                  </p>
+                  <h6 class="fw-bold">Mixed Canon/Filler Episodes :</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    46-47, 61, 68-69, 101, 354, 421, 489, 520, 574, 625, 633, 653, 657, 679, 690, 731, 738, 751,
+                    777-778, 789, 803, 807, 878-879, 881-885, 887-890, 915, 924, 934, 985, 989, 991-992
+                  </p>
+                  <h6 class="fw-bold">Filler Episodes :</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    54-60, 98-99, 102, 131-143, 196-206, 220-226, 279-283, 291-292, 303, 317-319, 326-336, 382-384,
+                    406-407, 426-429, 457-458, 492, 542, 575-578, 590, 626-628, 747-750, 780-782, 895-896, 907
+                  </p>
                 </div>
+              </div>
             </div>
-            <div class="Naruto col-xx-6  col-lg-6 col-md-6 col-12">
-
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Movies
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                    1. One Piece: The Movie
+                    <hr />
+                    2. Clockwork Island Adventure
+                    <hr />
+                    3. Chopper's Kingdom on the Island of Strange Animals
+                    <hr />
+                    4. Dead End Adventure
+                    <hr />
+                    5. The Cursed Holy Sword
+                    <hr />
+                    6. Baron Omatsuri and the Secret Island
+                    <hr />
+                    7. Giant Mecha Soldier of Karakuri Castle
+                    <hr />
+                    8. The Desert Princess and the Pirates: Adventures in Alabasta
+                    <hr />
+                    9. Episode of Chopper Plus: Bloom in the Winter, Miracle Sakura
+                    <hr />
+                    10. One Piece Film: Strong World
+                    <hr />
+                    11. Straw Hat Chase
+                    <hr />
+                    12. One Piece Film: Z
+                    <hr />
+                    13. One Piece Film: Gold
+                    <hr />
+                    14. One Piece: Stampede
+                    <hr />
+                  </p>
+                </div>
+              </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Where to Watch
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                  <h6 class="fw-bold">Manga</h6>
+                  <hr />
+                  <a href="https://onepiece-manga-online.net/">Click Here</a>
+                  <hr />
+                  <h6 class="fw-bold">Website</h6>
+                  <hr />
+                  <h6 class="fw-bold">DUB</h6>
+                  <a href="https://animixplay.to/v1/one-piece-dub">Animix</a>
+                  <hr />
+                  <h6 class="fw-bold">SUB</h6>
+                  <a href="https://animixplay.to/v1/one-piece">Animix</a><br />
+                  <a href="https://gogoanime.cm/category/one-piece">GoGo Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">App</h6>
+                  <hr />
+                  <a href="https://play.google.com/store/apps/details?id=com.cksentertainment.animelove3">Anime Love</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="Naruto col-xx-6  col-lg-6 col-md-6 col-12 mt-5">
+        <figure>
+          <img src="./img/2.jpg" alt="Naruto Shippuden" class="img-fluid anime_img mx-auto d-block">
+        </figure>
+        <h3 class="text-center anime_font">Naruto & Naruto Shippuden</h3>
+        <div class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Episodes
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h6 class="fw-bold">Manga Canon Episode :</h6>
+                  <hr />
+                  <h6 class="fw-bold">Naruto</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    1-6, 8, 10-13, 17, 22, 25, 31-36, 42, 48, 50-51, 61-62, 64-65, 67-68, 73, 75-82, 84-96, 107-111,
+                    115-125, 128-129, 132-135
+                  </p>
+                  <hr />
+                  <h6 class="fw-bold">Naruto Shippuden</h6>
+                  <hr />
+                  <p class="fw-bold">
 
-    </section>
+                    20-23, 26-27, 29-44, 46-48, 51-53, 55, 72-88, 113-114, 116-126, 129-143, 152-169, 172-175, 197-212,
+                    214-222, 243-253, 255-256, 261-270, 272-278, 282-283, 296-302, 321-323, 325-326, 329, 332-337,
+                    339-345, 363-375, 378-384, 387, 391-393, 414, 418, 420-421, 424-425, 459, 463, 470, 473-477, 484-500
+                  </p>
+                  <h6 class="fw-bold">Mixed Canon/Filler Episodes:</h6>
+                  <hr />
+                  <h6 class="fw-bold">Naruto</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    7, 9, 14-16, 18-21, 23-24, 27-30, 37-41, 43-47, 49, 52-60, 63, 66, 69-72, 74, 83, 98, 100, 112-114, 126-127, 130-131, 141, 220
+                  </p>
+                  <hr />
+                  <h6 class="fw-bold">Naruto Shippuden</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    1-19, 24-25, 45, 49-50, 54, 56, 89-90, 112, 115, 127-128, 213, 254, 324, 327-328, 330-331, 338, 346, 362, 385-386, 415, 419, 426, 451-458, 460-462, 469, 471-472, 478-479
+                  </p>
+                  <h6 class="fw-bold">Filler Episodes :</h6>
+                  <hr />
+                  <h6 class="fw-bold">Naruto</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    26, 97, 101-106, 136-140, 142-219
+                  </p>
+                  <hr />
+                  <h6 class="fw-bold">Naruto Shippuden</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    28, 57-71, 91-111, 144-151, 170-171, 176-196, 223-242, 257-260, 271, 279-281, 284-295, 303-320, 347-361, 376-377, 388-390, 394-413, 416-417, 422-423, 427-450, 464-468, 480-483
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Movies
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                    1. Naruto The Movie : Ninja Clash in the Land of snow
+                    <hr />
+                    2. Naruto The Movie : Legend of the Stone of Gelel
+                    <hr />
+                    3. Naruto The Movie : Guardians of the Crescent Moon Kingdom
+                    <hr />
+                    4. Naruto Shippuden The Movie
+                    <hr />
+                    5. Naruto Shippuden The Movie : Bonds
+                    <hr />
+                    6. Naruto Shippuden The Movie : The Will of Fire
+                    <hr />
+                    7. Naruto Shippuden The Movie : The Lost Tower
+                    <hr />
+                    8. Naruto Shippuden The Movie : Blood Prison
+                    <hr />
+                    9. Road to Ninja : Naruto The Movie
+                    <hr />
+                    10. The Last : Naruto The Movie
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Where to Watch
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                  <h6 class="fw-bold">Manga</h6>
+                  <hr />
+                  <a href="https://narutomangaonline.com/">Click Here</a>
+                  <hr />
+                  <h6 class="fw-bold">Website</h6>
+                  <hr />
+                  <h6 class="fw-bold">DUB</h6>
+                  <a href="https://animixplay.to/v1/naruto-dub">Animix</a> <br/>
+                  <a href="https://gogoanime.cm/category/naruto">Go Go Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">SUB</h6>
+                  <a href="https://animixplay.to/v1/naruto">Animix</a><br />
+                  <a href="https://gogoanime.cm/category/naruto-dub">GoGo Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">App</h6>
+                  <hr />
+                  <a href="https://play.google.com/store/apps/details?id=com.cksentertainment.animelove3">Anime Love</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Home Section End's -->
+    <div class="row">
+      <div class="My_Hero_Academia col-xx-6  col-lg-6 col-md-6 col-12 mt-5">
+        <figure>
+          <img src="./img/3.png" alt="hero_academia" class="img-fluid anime_img mx-auto d-block">
+        </figure>
+        <h3 class="text-center anime_font">My Hero Academia</h3>
+        <div class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Episodes
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h6 class="fw-bold">Manga Canon Episode</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    1-31, 33-38, 40-54, 56-57, 59-63, 65-88, 90-103, 105-113.......Ongoing
+                  </p>
+                  <h6 class="fw-bold">Mixed Canon/Filler Episodes:</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    55, 89
+                  </p>
+                  <h6 class="fw-bold">Filler Episodes:</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    39, 58, 64, 104
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  Movies
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                    1. My Hero Academia: Save! Rescue Training!
+                    <hr />
+                    2. My Hero Academia 2 - Hero Note
+                    <hr />
+                    3. My Hero Academia: Training of the Dead
+                    <hr />
+                    4. My Hero Academia - All Might: Rising
+                    <hr />
+                    5. My Hero Academia - Two Heroes
+                    <hr />
+                    6. My Hero Academia - Make It! Do-or-Die Survival Training
+                    <hr />
+                    7. My Hero Academia the Movie 2 - Heroes: Rising
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  Where to Watch
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                  <h6 class="fw-bold">Manga</h6>
+                  <hr />
+                  <a href="https://heroacademiamanga.com/">Click Here</a>
+                  <hr />
+                  <h6 class="fw-bold">Website</h6>
+                  <hr />
+                  <h6 class="fw-bold">DUB</h6>
+                  <a href="https://gogoanime.cm/category/boku-no-hero-academia-dub">GoGo Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">SUB</h6>
+                  <a href="https://animixplay.to/v1/boku-no-hero-academia">Animix</a><br />
+                  <a href="https://gogoanime.cm/category/boku-no-hero-academia">GoGo Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">App</h6>
+                  <hr />
+                  <a href="https://play.google.com/store/apps/details?id=com.cksentertainment.animelove3">Anime Love</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Naruto col-xx-6  col-lg-6 col-md-6 col-12 mt-5">
+        <figure>
+          <img src="./img/4.jpg" alt="Naruto Shippuden" class="img-fluid anime_img mx-auto d-block">
+        </figure>
+        <h3 class="text-center anime_font">Tokyo Revengers</h3>
+        <div class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  Episodes
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h6 class="fw-bold">Manga Canon Episode</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    1-24
+                  </p>
+                  <h6 class="fw-bold">Mixed Canon/Filler Episodes:</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    --Nil--
+                  </p>
+                  <h6 class="fw-bold">Filler Episodes:</h6>
+                  <hr />
+                  <p class="fw-bold">
+                    --Nil--
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEleven">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                  Movies
+                </button>
+              </h2>
+              <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                    --Nil--
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwelve">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                  Where to Watch
+                </button>
+              </h2>
+              <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold">
+                  <p>
+                  <h6 class="fw-bold">Manga</h6>
+                  <hr />
+                  <a href="https://tokyorevengersmanga.com/">Click Here</a>
+                  <hr />
+                  <h6 class="fw-bold">Website<Ten
+                  <hr />
+                  <h6 class="fw-bold">DUB</h6>
+                  <a href="https://animixplay.to/v1/tokyo-revengers-dub">Animix</a><br/>
+                  <a href="https://gogoanime.cm/category/tokyo-revengers-dub">Go Go Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">SUB</h6>
+                  <a href="https://animixplay.to/v1/tokyo-revengers">Animix</a><br />
+                  <a href="https://gogoanime.cm/category/tokyo-revengers">GoGo Anime</a>
+                  <hr />
+                  <h6 class="fw-bold">App</h6>
+                  <hr />
+                  <a href="https://play.google.com/store/apps/details?id=com.cksentertainment.animelove3">Anime Love</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Home Section End's -->
 
 
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
